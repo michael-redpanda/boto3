@@ -13,7 +13,7 @@ VERSION_RE = re.compile(r'''__version__ = ['"]([0-9.]+)['"]''')
 
 
 requires = [
-    'botocore>=1.29.62,<1.30.0',
+    'botocore@git+https://github.com/redpanda-data/botocore@a8a2f7ca5b37125ed5eeea452c809cee9aa86d37',
     'jmespath>=0.7.1,<2.0.0',
     's3transfer>=0.6.0,<0.7.0',
 ]
